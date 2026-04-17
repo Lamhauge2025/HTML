@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spurnarblað</title>
+  </head>
+  <body>
+    <h1>Spurningar</h1>
+    <form>
+      <ul>
+        <li>Navn: <input type="text" /></li>
+        <br>
+        <li>E-mail: <input type="email" /></li><br>
+        <li>
+          Kyn:
+          <select><option value="">Vel kyn</option>
+            <option value="madur">Maður
+            <option value="kvinna">Kvinna</option>
+          </option></select>
+        </li><br>
+        <li>
+            Føðidato: <input type="datetime-local">
+        </li><br>
+        <li>
+            Ert tú nøgd/ur at búgva í Føroyum?<br>
+            <input type="radio" id="Sera nøgdur" name="nogdsemi" value="Sera">
+                <label for="Sera nøgdur">Sera nøgd/ur</label><br>
+            <input type="radio" id="Super nøgdur" name="nogdsemi" value="Super">
+            <label for="Super nøgdur">Super nøgd/ur</label><br>
+            <input type="radio" id="Nøgdur" name="nogdsemi" value="Nøgdur">
+            <label for="Nøgdur">Nøgd/ur</label><br>
+            <input type="radio" id="Ja" name="nogdsemi" value="Ja">
+            <label for="Ja">Ja</label>
+        </li><br>
+        <li>
+            <input type="submit" value="Submit">
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
