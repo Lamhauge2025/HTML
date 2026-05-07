@@ -1,42 +1,35 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spurnarblað</title>
   </head>
-  <body>
+  <body><a href="forsida.html">Forsíða</a>
+    <div class="menu"style="width=400px">
     <h1>Spurningar</h1>
     <form>
-      <ul>
-        <li>Navn: <input type="text" /></li>
+        <input type="text" placeholder="Full Name"/>
         <br>
-        <li>E-mail: <input type="email" /></li><br>
-        <li>
-          Kyn:
-          <select><option value="">Vel kyn</option>
-            <option value="madur">Maður
-            <option value="kvinna">Kvinna</option>
+        <input type="email" placeholder="Email Adress"/></br>
+          <select><option value="">Gender</option>
+            <option value="madur">Male</option>
+            <option value="kvinna">Female</option>
           </option></select>
-        </li><br>
-        <li>
-            Føðidato: <input type="datetime-local">
-        </li><br>
-        <li>
+          <br>
+            Føðidato: <input type="date" id="date" name="date" value="date"><br>
             Ert tú nøgd/ur at búgva í Føroyum?<br>
             <input type="radio" id="Sera nøgdur" name="nogdsemi" value="Sera">
-                <label for="Sera nøgdur">Sera nøgd/ur</label><br>
+            <label for="Sera nøgdur">Sera nøgd/ur</label><br>
             <input type="radio" id="Super nøgdur" name="nogdsemi" value="Super">
             <label for="Super nøgdur">Super nøgd/ur</label><br>
             <input type="radio" id="Nøgdur" name="nogdsemi" value="Nøgdur">
             <label for="Nøgdur">Nøgd/ur</label><br>
             <input type="radio" id="Ja" name="nogdsemi" value="Ja">
-            <label for="Ja">Ja</label>
-        </li><br>
-        <li>
+            <label for="Ja">Ja</label><br>
             <input type="submit" value="Submit">
-        </li>
-      </ul>
     </form>
+    </div>
   </body>
 </html>

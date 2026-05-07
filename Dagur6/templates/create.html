@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding planet</title>
+  </head>
+  <body>
+    <form method="post">
+      <input
+        type="text"
+        name="planet_name"
+        placeholder="Planet name"
+        value="{{request.form['planet_name']}}"></input>
+        <input type="text" name="comment" placeholder="Comment" value="{{request.form['comment']}}"></input>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

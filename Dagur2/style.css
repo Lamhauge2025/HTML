@@ -1,0 +1,52 @@
+.button {
+    color: #ff0000;
+  }
+#yvirskrift {
+    color: #1500ff;
+}
+
+.profile{
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 5px;
+    display:flex;
+}
+.profile_left{
+    padding: 5px;
+    display:flex;
+    clip-path: circle(50%);
+    width: 200px;
+}
+
+td{
+    padding: 10px;
+}
+
+.profile_right{
+    padding: 5px;
+    display: flex;
+    
+}
+body{
+    background-color: #757575;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 26%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+ul {
+    list-style: none;
+}
+.email{
+    color:aqua;
+}
+
+.menu{
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 5px;
+}
