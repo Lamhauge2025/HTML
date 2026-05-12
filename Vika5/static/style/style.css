@@ -1,0 +1,21 @@
+body{
+    display: flexbox;
+}
+#remove-btn{
+    background-color: red;
+}
+#upg4{
+    border-width: 2px;
+}
+
+#color-change-box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color :lightblue;
+    transition: background-color 0.2s;
+    border-width: 1px;
+}
